@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+
+<style>
+body {
+background-color: #ece9e3; 
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+font-weight: 400;
+color: white;
+letter-spacing: 1px;
+	
+} </style>
+<style>
+.main-container {
+background-color:#c4a383; 
+margin: 200px;
+box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+display: grid;
+grid-template-columns: 40% 50%;
+}
+</style>
+<style>
+.container-left {
+background-color:#2f4f5b;
+padding: 50px;
+outline: 3px dashed white;
+outline-offset: -30px;
+text-align: center;
+}
+</style>
+<style>
+.heading {
+font-size: 35px;
+text-transform: uppercase;
+	margin-left: -0.90em;
+}
+.heading-note {
+color:#b56f3a;  
+font-size: 25px;
+}
+.heading-phone {
+font-size: 20px;
+}
+</style>
+<style>
+.container-form {
+padding: 20px 0;
+margin: 0 auto;
+color:black;
+}
+</style>
+<style>
+.button {
+background-color: #2f4f5b;
+color: white;
+padding: 10px 30px;
+font-size: 20px;
+border-radius:100px;
+box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+cursor: pointer;
+transition: all .3s;
+}
+.button:hover {
+transform: scale(1.03);
+box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+	</style>
+</head>
+
+
+<body>
+<fieldset>
+<legend> Contact Form </legend>
+<div class="main-container">
+<div class="container-left">
+
+<h2 class="heading"> <img src ="LOGO gOLD-01.png"  height="300"></h2>
+
+<h3 class="heading-note"> Dining hours:</h3>
+<p>6am - 11am (breakfast)</p>
+<p>12pm - 4pm (lunch)</p>
+<p>7pm -10pm (dinner)</p>
+<h3 class="heading-note"> Gym & Saloon hours:</h3>
+<p>8am - 12pm (morning shift)</p>
+<p>3pm - 9pm (afternoon/evening shift)</p>
+<hr>
+<h4 class="heading-phone">Call us (966)-552941009</h4>
+</div>
+<div class="container-form">
+
+
+<form name="Hotel"  method="post" action="insert.php">
+
+<center><h2 class="heading">sing in /sing up</h2></center>
+
+
+<div class="form-field">
+<lable>Your Name:</lable> <br>
+<input type="text" name="Your Name" required>
+</div><br>
+
+<div class="form-field">
+<lable>Your email:</lable> <br>
+<input type="email" name="Your email" required>
+</div><br>
+
+<div class="form-field">
+<lable>Your Phone Number:</lable> <br>
+<input type="tel" name="Your Phone Number" required>
+</div><br>
+
+<hr>
+<div class="form-field">
+<p>Check in Date:</p>
+<input type="date" name=" Check in" required>
+</div>
+<div class="form-field">
+<p>Check out Date:</p>
+<input type="date" name= "Check out" required>
+</div>
+
+<div class="form-field">
+<p>How many people?</p>
+<select name="select1" id="1" required>
+<option value="1">1 person</option>
+<option value="2">2 persons</option>
+<option value="3">3 persosn</option>
+<option value="4">4 persons</option>
+<option value="5">5 and more persons</option>
+</select>
+</div>
+<div class="form-field">
+<p>what kind of room you want?</p>
+<select name="select2" id="2" required>
+<option value="1">Moonflower queen</option>
+<option value="2">Moonflower two queens</option>
+<option value="3">Moonflower premium queen junior suite</option>
+<option value="4">Moonflower premium king junior suite with kitchenette</option>
+</select>
+</div>
+<br>
+<center>
+<button class="button">Submit</button>
+<button class="button">Reset</button></center>
+</div>
+</div>
+</form>
+</fieldset>
+</body>
+</html>

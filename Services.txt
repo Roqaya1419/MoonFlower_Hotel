@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Our Services</title>
+		<link rel="stylesheet" href="CSS Style.css">
+</head>
+<body>
+	
+		<div class="navbar"> 
+     <div class="container">
+			    <div class="logo_div">
+			<img src ="Logo1.png" alt="Logo" class="logo">
+		</div>
+		<div class ="navbar_links">
+			    <ul class ="menu"> 
+	 <label class="Booking"><a href ="Booking.html">Book Now</a></label> 
+	 <li> <a href="Home Page.html">Home</a></li>
+	 <li> <a href ="Room and Suites.html">Room & Suits</a></li>
+	 <li> <a href="Services.html"> Services </a></li>
+	 <li><a href="Offers and Packages.html"> Offers & Packages </a></li>
+	            </ul>
+		</div>
+		</div>
+	</div> 
+	
+	    <center><h1> Our services </h1></center>
+	 	
+	    <center><h2> <div class = "thin blue dotted">Gym</div></h2></center>
+<p> Challenge yourself to a workout in the fitness centre, which includes a yoga studio. 
+Take a dip in the heated indoor pool, followed by some quality time in the whirlpool and a few moments in the sauna.
+And Spa of the North, located right in our hotel.</p>
+	<br>
+<center>
+<img src="Gym.jpeg" alt="Gym" width="430" height="300">  <img src="Gym1.jpeg" alt="Gym" width="430" height="300">
+<h4>We welcome you to enjoy the gym from 8:00Am- 12:00PM & from 3:00PM- 9:00PM.</h4>
+</center>
+	<br>
+		<br>
+
+ <hr>
+		<br>
+	<br>
+
+	 	   <center><h2> <div class = "thin blue dotted">Beauty Salon</div></h2></center>
+	<br>
+
+<p>Our hotel provides a beautiful area for women to do their hair styles and nails,
+which will have you planning your next visit before your first one is even ended</p>
+		<br>
+	<br>
+
+<center>
+<img src="Saloon.jpeg" alt="Saloon" width="860" height="500">
+<h4>We welcome you to enjoy the saloon from 8:00Am- 12:00PM & from 3:00PM- 9:00PM</h4>
+</center>
+	<br>
+	<br>
+
+<hr>
+	<br>
+	<br>
+
+	<center><h2> <div class = "thin blue dotted">Dining</div></h2></center>
+	<br>	
+	
+<p>A relaxed restaurant with a great happy hour.
+ From hearty breakfasts and healthy snacks to dinner and cocktails,
+ there’s something to satisfy any appetite. Not in the mood for restaurant dining?
+<em> No worries, you can always order something for take-out</em></p>
+		<br>
+
+<center>
+<img src="Dining.jpeg" alt="Dining" width="430" height="300"> <img src="Dining1.jpeg"  alt="Dining" width="430" height="300">
+<h4>Our dining hours:</h4>
+</center>
+	    <ul class = "ul">
+<li> Breakfast: from 6:00AM-11:00Am </li>
+<li> Lunch: from 12:00 PM- 4:00PM </li>
+<li> Dinner: from 7:00PM- 10:00Pm </li>
+	</ul>
+	<br>
+	<br>
+
+
+
+</body>
+</html>

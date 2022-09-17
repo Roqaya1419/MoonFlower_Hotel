@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rooms and Suites</title>
+		<link rel="stylesheet" href="CSS Style.css">
+</head>
+
+<body>
+	
+		<div class="navbar"> 
+     <div class="container">
+			    <div class="logo_div">
+			<img src ="Logo1.png" alt="Logo" class="logo">
+		</div>
+		<div class ="navbar_links">
+			    <ul class ="menu"> 
+	 <label class="Booking"><a href ="Booking.html">Book Now</a></label> 
+	 <li> <a href="Home Page.html">Home</a></li>
+	 <li> <a href ="Room and Suites.html">Room & Suits</a></li>
+	 <li> <a href="Services.html"> Services </a></li>
+	 <li><a href="Offers and Packages.html"> Offers & Packages </a></li>
+	            </ul>
+		</div>
+		</div>
+	</div>
+	
+	<center><header><h1> Rooms & Suites </h1></header></center>
+	
+	<border><h2> <div class = "thin blue dotted">Rooms</div></h2> </border> 
+	<h3> 1. Moonflower queen:</h3>
+	    <p> Designed with your comfort in mind, our Moonflower queen room features a triple-sheeted queen bed, a 55" Flat screen TV, mini fridge and work desk. </p>
+		<br>
+	<center> <img src="Moonflower queen.jpeg" alt="Moonflower queen" width="430" height="300">         <img src ="Moonflower queen1.jpeg" alt="Moonflower queen" width="430" height="300"> </center>
+	
+    <ul class = "ul">
+	<h4> All in-room amenities: </h4>
+	<li> Queen Bed</li>
+    <li> Work Desk</li>
+    <li> Free Wi-fi</li>
+    <li> 55" TV</li>
+    <li> Coffee/Tea Maker</li>
+    <li> Mini Fridge</li>
+    <li>Iron/Ironing Board</li>
+    </ul>
+	
+	<h3> 2- Moonflower two queens:</h3>
+	
+	<br>
+	<center><img src ="Moonflower two queen.jpeg"  alt="Moonflower two queens" width="430" height="300"><img src="Moonflower queen1.jpeg"  alt="Moonflower two queens" width="430" height="300"></center>
+    <ul class = "ul">
+	<h4> All in-room amenities: </h4>	
+	<li> Queen Bed</li>     
+	<li> Work Desk</li>     
+	<li> Microwave</li>    
+	<li> Walk-in Shower</li> 	
+	<li> Bathrobe</li>    
+	<li> Free Wi-fi</li>   
+	<li> 55" TV</li> 
+	<li> Coffee/Tea Maker</li> 
+	<li> Mini Fridge</li>   
+	<li> Iron/Ironing Board</li>
+    </ul>
+
+	<br>
+	<br>
+	
+	<hr>
+	
+	<br>
+	<br>
+	
+	 	<center><h2> <div class = "thin blue dotted">Suites</div></h2></center>
+	<h3> 1- Moonflower premium queen junior suite:</h3>
+	<p> Our Moonflower Premium Queen Junior Suite features one queen bed, a seating area with sofa bed, upgraded bathroom amenities, a balcony, 55" Flat screen TV, terry cloth bathrobes, mini fridge, walk-in shower and work desk. </p>
+		<br>
+<center> <img src="Moonflower suite.jpeg" alt="Moonflower premium queen junior suite" width="430" height="300"> <img src="Moonflower suite1.jpeg"  alt="Moonflower premium queen junior suite" width="430" height="300"> <img src="Moonflower queen.jpeg"  alt="Moonflower premium queen junior suite" width="430" height="300"> </center>
+
+    <ul class = "ul">
+<h4> All in-room amenities: </h4> 
+<li> Queen Bed</li>
+<li> Sitting Area</li>
+<li> Work Desk </li>
+<li> Microwave </li>
+<li> Balcony </li>
+<li> City View </li>
+<li> Bathrobe </li>
+<li> Pet Friendly </li>
+<li> Free Wi-fi </li>
+<li> 55" TV </li> 
+<li> Coffee/Tea Maker </li> 
+<li> Mini Fridge </li>
+<li> Iron/Ironing Board </li>
+</ul>
+
+	
+	<h3> 2- Moonflower premium king junior suite with kitchenette:</h3>
+	<p> Relax and unwind in this premium suite, offering a king bed, leather sofa in the seating area (pull-out), a spacious soaker tub, upgraded amenities, terry bathrobes, kitchenette balcony and city view. Of course, enjoy free Wi-Fi and a 55" flat screen TV.</p>
+		<br>
+	<center> <img src = "Moonflower premium2.jpeg" alt="Moonflower premium king junior suite with kitchenette" width="430" height="300"> <img src ="Moonflower premium.jpeg" alt="Moonflower premium king junior suite with kitchenette" width="430" height="300"> </center>
+	
+ <ul class = "ul">
+<h4> All in-room amenities: </h4>
+<li>Queen Bed</li> 
+<li> Sitting Area</li> 
+<li> Work Desk</li> 
+<li>Microwave</li> 
+<li>kitchenette</li> 
+<li>Balcony</li> 
+<li>City View</li> 
+<li>Bathrobe</li> 
+<li> Free Wi-fi</li> 
+<li>55" TV</li> 
+<li>Coffee/Tea Maker</li> 
+<li>Mini Fridge</li> 
+<li>Iron/Ironing Board</li>
+</ul>
+	
+	<br>
+	<br>
+</body>
+</html>
