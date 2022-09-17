@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Moonflower Hotel</title>
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS Style.css">
+	</head>
+<body>
+	<div class="navbar"> 
+     <div class="container">
+			    <div class="logo_div">
+			<img src ="logo.png" alt="Logo" class="logo">
+		</div>
+		<div class ="navbar_links">
+			    <ul class ="menu"> 
+	 <label class="Booking"><a href ="booking codes.html">Book Now</a></label> 
+	 <li> <a href="Home Page.html">Home</a></li>
+	 <li> <a href ="Room and Suites.html">Room & Suits</a></li>
+	 <li> <a href="Services.html"> Services </a></li>
+	 <li><a href="Offers and Packages.html"> Offers & Packages </a></li>
+	            </ul>
+		</div>
+		</div>
+	</div>
+	
+	 <hr><p style=" font-size: 23px; font-weight: bold;"> More than a hotel!  <br> A way of life </p> 
+
+     
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Moonflower hotel1.jpeg"   alt="MOONFLOWER" width="100%">
+  <div class="text"></div>
+</div>
+
+ <div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Moonflower hotel2.jpeg"  alt="MOONFLOWER" width="100%">
+  <div class="text"></div>
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	
+	<br>
+	<br>
+</body>
+</html>
